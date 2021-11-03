@@ -249,4 +249,8 @@ label {
     input label {
         align-self: center;
     }
+
+    .contacto-formulario {
+        box-shadow: 0px 0px 10px #000;
+    }
 }
