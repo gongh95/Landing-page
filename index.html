@@ -24,9 +24,17 @@
         </nav>
         <nav class="nav__resp">
             <div class="boton-nav" id="abrir" onclick="mostrar()"><i><ion-icon class="boton-nav__icon" name="menu-outline"></ion-icon></i></div>
+            <div class="boton-nav" id="cerrar" onclick="ocultar()"><i><ion-icon class="boton-nav__icon" name="menu-outline"></ion-icon></i></div>
             <script>
                 function mostrar() {
                     document.getElementById("nav_container__resp").style.display = "flex";
+                    document.getElementById("abrir").style.display = "none";
+                    document.getElementById("cerrar").style.display = "block";
+                }
+                function ocultar() {
+                    document.getElementById("nav_container__resp").style.display = "none";
+                    document.getElementById("abrir").style.display = "block";
+                    document.getElementById("cerrar").style.display = "none";
                 }
             </script>
             <ul class="nav-container__resp" id="nav_container__resp">
