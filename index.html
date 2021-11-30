@@ -22,6 +22,19 @@
                 <li class="nav-item"><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+        <nav class="nav__resp">
+            <div class="boton-nav" id="abrir" onclick="mostrar()"><i><ion-icon class="boton-nav__icon" name="menu-outline"></ion-icon></i></div>
+            <script>
+                function mostrar() {
+                    document.getElementById("nav_container__resp").style.display = "flex";
+                }
+            </script>
+            <ul class="nav-container__resp" id="nav_container__resp">
+                <li class="nav-item__resp"><a href="#inicio">Inicio</a></li>
+                <li class="nav-item__resp"><a href="#galeria">Galeria</a></li>
+                <li class="nav-item__resp"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="fondo">
         <!-- <img class="fondo-img" src="./img/imagen1.jpg" alt=""> -->
@@ -68,6 +81,8 @@
         </ul>
         <h4 class="footer-copy">Todos los derechos reservados | Gongh95</h4>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

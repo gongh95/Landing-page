@@ -9,3 +9,4 @@
 // let afirmacion2 = numero1 != numero2;
 
 // alert(!afirmacion1)
+
