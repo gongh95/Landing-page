@@ -50,17 +50,32 @@ li {
     position: fixed;
     padding: 10px 0px;
     width: 100%;
+    min-height: 65px;
     height: auto;
     background: #999;
     z-index: 200;
 }
 
 .nav-container__resp {
-    display: none;
+    position: relative;
+    display: flex;
+    margin-top: -170px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-flow: column nowrap;
-    transition: all 2s;
+    transition: margin-top .8s;
+    z-index: -20;
+}
+
+.nav-item__resp {
+    padding: 10px;
+}
+
+.nav-item__resp > a {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
 }
 
 #cerrar {
@@ -68,6 +83,9 @@ li {
 }
 
 .boton-nav {
+    top: 6px;
+    right: -11px;
+    position: absolute;
     width: 80px;
     cursor: pointer;
 }
@@ -75,10 +93,6 @@ li {
 .boton-nav__icon {
     width: 50px;
     height: 50px;
-}
-
-.boton-nav:hover > .nav-container__resp {
-    display: none;
 }
 
 main {

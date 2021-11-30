@@ -28,19 +28,21 @@
             <script>
                 function mostrar() {
                     document.getElementById("nav_container__resp").style.display = "flex";
+                    document.getElementById("nav_container__resp").style.marginTop = "50px";
                     document.getElementById("abrir").style.display = "none";
                     document.getElementById("cerrar").style.display = "block";
                 }
                 function ocultar() {
-                    document.getElementById("nav_container__resp").style.display = "none";
+                    document.getElementById("nav_container__resp").style.display = "flex";
+                    document.getElementById("nav_container__resp").style.marginTop = "-170px";
                     document.getElementById("abrir").style.display = "block";
                     document.getElementById("cerrar").style.display = "none";
                 }
             </script>
             <ul class="nav-container__resp" id="nav_container__resp">
-                <li class="nav-item__resp"><a href="#inicio">Inicio</a></li>
-                <li class="nav-item__resp"><a href="#galeria">Galeria</a></li>
-                <li class="nav-item__resp"><a href="#contacto">Contacto</a></li>
+                <li class="nav-item__resp"><a onclick="ocultar()" href="#inicio">Inicio</a></li>
+                <li class="nav-item__resp"><a onclick="ocultar()" href="#galeria">Galeria</a></li>
+                <li class="nav-item__resp"><a onclick="ocultar()" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
