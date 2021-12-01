@@ -313,6 +313,7 @@ label {
     }
 
     .galeria-contenedor {
+        margin: auto;
         max-width: 1370px;
         padding: 0px 60px;
     }
