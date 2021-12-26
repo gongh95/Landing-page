@@ -97,7 +97,7 @@ li {
 
 main {
     position: relative;
-    padding-top: 70px;
+    padding: 70px 0px;
     display: flex;
     align-content: center;
     flex-flow: column wrap
