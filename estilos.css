@@ -163,10 +163,10 @@ main {
     background: #676767;
 }
 
-.divisor {
+/* .divisor {
     position: relative;
     margin-bottom: -7px;
-}
+} */
 
 .galeria-titulo {
     font-size: 3.3rem;
@@ -181,7 +181,7 @@ main {
     position: relative;
     /* top:-10px; */
     height: auto;
-    background: #eee;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #eee 30%);
 }
 
 .galeria-contenedor {
